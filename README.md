@@ -1,20 +1,20 @@
 
-## User & Vacation Management API
+# User & Vacation Management API
 
 Este é um projeto de API para gerenciamento de usuários e férias, utilizando o framework Fastify em Node.js.
 
-#Configuração do Servidor
+## Configuração do Servidor
 O servidor é configurado para lidar com requisições CORS e expõe rotas para manipular informações de usuários e férias.
 
-#Porta do Servidor:
+## Porta do Servidor:
 
 O servidor está configurado para ouvir a porta especificada no ambiente ou na porta 3333.
 Registro de Rotas:
 
 Rotas para o início, usuários e férias são registradas.
 
-##Rotas Disponíveis
-###Início
+## Rotas Disponíveis
+### Início
 GET /: Retorna uma mensagem indicando que a API está acessível.
 Usuários
 GET /api/users: Obtém todos os usuários.
