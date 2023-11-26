@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch --no-warnings server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^7.0.0",
+    "bcrypt": "^5.1.1",
+    "fastify": "^3.29.5",
+    "jsonwebtoken": "^9.0.2",
+    "memorystore": "^1.6.7",
+    "short-uuid": "^4.2.2",
+    "uuid": "^9.0.1"
+  }
+}
