@@ -15,7 +15,6 @@ This project is a simple user vacation management system built with Fastify, a f
 - [Controllers](#controllers)
 - [Middlewares](#middlewares)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -101,6 +100,15 @@ This will start the Fastify server, and you can access the API at http://localho
 
 - userController: Implements user-related business logic (get all users, get user by ID, add user, update user, delete user, login).
 - vacationController: Implements vacation-related business logic (get all vacations, get vacation by ID, request vacation, update vacation, cancel vacation).
+
+## Middlewares
+
+### ValidationMiddleware
+Validation middleware functions for input validation.
+
+- validationMiddleware(request, reply, done): Validate user input.
+- loginValidation(request, reply, done): Validate login input.
+- vacationValidationMiddleware(request, reply, done): Validate vacation input.
 
 ## Contributing
 
