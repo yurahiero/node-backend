@@ -46,6 +46,7 @@ cd your-repository
 cd user-vacation-management-system
 ```
 
+3. Install dependencies:
 ```bash
 npm install
 ```
