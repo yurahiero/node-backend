@@ -37,15 +37,18 @@ Before you begin, ensure you have met the following requirements:
 
 ```bash
 git clone https://github.com/your-username/your-repository.git
-cd your-repository```
+cd your-repository
+```
 
 2. Navigate to the project directory:
 
 ```bash
-cd user-vacation-management-system```
+cd user-vacation-management-system
+```
 
 ```bash
-npm install```
+npm install
+```
 
 ## Project Structure
 
@@ -59,7 +62,8 @@ npm install```
 ## Usage
 
 ```bash
-npm start```
+npm start
+```
 
 This will start the Fastify server, and you can access the API at http://localhost:3333.
 
